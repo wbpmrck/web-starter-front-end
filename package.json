@@ -1,0 +1,20 @@
+{
+  "name": "web-starter-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kaicui",
+  "license": "ISC",
+  "dependencies": {
+    "fis3-optimizer-html-minifier": "0.0.9",
+    "fis3-postpackager-info-output": "^1.0.0",
+    "fis3-postpackager-loader": "1.3.2",
+    "fis3-prepackager-resources-fix": "^1.0.1",
+    "fis3-prepackager-view-normalize": "^1.0.1",
+    "fis3-preprocessor-resources-prepare": "^1.0.2",
+    "vue": "^2.4.2"
+  }
+}

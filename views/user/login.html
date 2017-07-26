@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>测试网站-login</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!--样式表-->
+    <link rel="stylesheet" href="../../resources/css/reset.css">
+    <link rel="stylesheet" href="../../resources/css/style.css">
+</head>
+
+<body>
+
+    <!--使用fis的资源嵌入能力，引入组件html,组织页面结构-->
+    <link rel="import" href="../../components/header/header.html?__inline">
+
+
+    <!--下面是页面自己的内容-->
+    <div id="login">
+
+        <div id="main">
+            用户名:<input type="text" id="user-name"> <br>
+            密码:<input type="text" id="password">
+
+        </div>
+
+        <button id="submit">点击登录</button>
+    </div>
+
+    <link rel="component" href="../../components/foot">
+
+
+    <!--入口脚本-->
+    <script type="text/javascript">
+        var loginEntry = require("./login.js");
+        loginEntry.init();
+        //这样也可以,使用服务端模板渲染的数据部分
+    </script>
+</body>
+</html>

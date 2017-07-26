@@ -1,0 +1,7 @@
+#foot{
+    width:100%;
+    height:200px;
+    background-color: #0066ee;
+    position: fixed;
+    bottom:0px;
+}
