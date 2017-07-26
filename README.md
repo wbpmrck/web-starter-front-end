@@ -25,9 +25,24 @@
 $ npm install -g fis3
 ```
 
-### 在本目录执行npm install
+### 然后找一个开发目录，使用npm安装本项目结构：
+
 
 ```bash
+$ cd yourProjectDir
+$ npm install web-starter-front-end
+```
+
+
+### 在工程目录 npm install
+
+```bash
+$ cd web-starter-front-end
 $ npm install 
 ```
+
+### 注意
+完成以上步骤之后，node_modules/web-starter-front-end 就是你的web工程了，你可以把这个文件夹拷贝到外面来使用。
+
+> 后续会计划开发一个CLI插件来方便使用
 

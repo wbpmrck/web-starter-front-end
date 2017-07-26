@@ -1,13 +1,13 @@
 {
   "name": "web-starter-front-end",
   "version": "1.0.0",
-  "description": "",
+  "description": "这是一个前端脚手架，目的是快速的搭建一个具备完善的模块管理、依赖加载机制的前端工程",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kaicui",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "fis3-optimizer-html-minifier": "0.0.9",
     "fis3-postpackager-info-output": "^1.0.0",
@@ -16,5 +16,22 @@
     "fis3-prepackager-view-normalize": "^1.0.1",
     "fis3-preprocessor-resources-prepare": "^1.0.2",
     "vue": "^2.4.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbpmrck/web-starter-front-end.git"
+  },
+  "keywords": [
+    "web",
+    "skeleton",
+    "FE",
+    "front-end"
+  ],
+  "bugs": {
+    "url": "https://github.com/wbpmrck/web-starter-front-end/issues"
+  },
+  "homepage": "https://github.com/wbpmrck/web-starter-front-end#readme"
 }
