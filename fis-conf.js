@@ -28,6 +28,7 @@ fis.set('project.ignore', [
     '_fis3_loader/**', //不要删除
     'fis-conf*.js',//不要删除
     'node_modules/**',//不要删除
+    'dist/**',
     '.git/**',
     '.svn/**'
 ]);
