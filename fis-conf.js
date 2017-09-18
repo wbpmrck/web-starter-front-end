@@ -11,7 +11,7 @@ console.log('prepare to build: media is :['+now_media+']');
 fis.set('site.name', "testWeb");
 fis.set('nowMedia', now_media);
 fis.set('version.web', "1.0");
-fis.set('site.staticDomain', "http://127.0.0.1:1234");
+fis.set('site.staticDomain', require("./config/configs").staticDomain);
 
 
 /* ------------------------------------------------------------------

@@ -1,1 +1,2 @@
-exports.domain = "http://localhost:8080";
+exports.staticDomain = "http://localhost:1234";
+exports.dynamicDomain = "http://localhost:1234";
