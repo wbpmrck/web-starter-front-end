@@ -3,11 +3,9 @@ var ajaxHelper = require("./ajaxHelper.js");
 
 exports.login=function (userName,password,cb) {
     
-    ajaxHelper.doAjax(
-        'POST',
-        `user/loginRequest`,
-        {userName,password},
-        cb
+    return ajaxHelper.post(
+        '/user/loginRequest',
+        {userName:userName,password:password}
     )
 }
     

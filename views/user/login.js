@@ -61,18 +61,15 @@ function _bindEvent() {
     $("#submit").click(function () {
         var name = $("#user-name").val();
         var pswd = $("#password").val();
-        
-        userService.login(name,pswd,function (resp, err) {
-            if(resp){
-                alert("登录成功");
-            }else{
-                alert(`出现错误:${err.stack||err}`);
-                require.async("../../libs/someBigModule.js",function (module) {
-                    module.work();
-                });
-            }
+    
+        userService.login(name,pswd).then(function (resp) {
+            alert("登录成功");
+        }).catch(function (err) {
+            alert('出现错误:'+err.stack||err);
+            require.async("../../libs/someBigModule.js",function (module) {
+                module.work();
+            });
         })
-        
     });
 }
 

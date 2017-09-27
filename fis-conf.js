@@ -51,6 +51,10 @@ fis.match(/^\/libs\/(.*)[\.js]$/i,{
     packTo: '/static/packages/${site.name}/lib_pkg.js'
 });
 
+fis.match(/^\/libs\/qs\/(.*)[\.js]$/i,{
+        needFix:false,//文件属性，无需更新引用等
+    }
+);
 //项目内部复用模块
 
 fis.match(/^\/config\/(.*)[\.js]$/i,{
