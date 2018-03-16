@@ -13,7 +13,7 @@
 
 ## 关于后端选型
 
-本框架对于后端选型没有要求，主流的后端技术都是可以的。也可以选择我开发的另外一个 `[后端skeleton](https://github.com/wbpmrck/web-starter)`
+本框架对于后端选型没有要求，主流的后端技术都是可以的。也可以选择我开发的另外一个 [后端skeleton](https://github.com/wbpmrck/web-starter)
 
 ## 使用方法
 
